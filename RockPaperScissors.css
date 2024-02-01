@@ -1,0 +1,148 @@
+body{
+    background-color: #1D2B53;
+}
+
+#heading{
+    color: #FF004D;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 0%;
+    margin-top: 1%;
+    text-shadow: 1px 1px 1px #8d012b ;
+    font-size: 45px;
+    font-family:cursive;
+}
+
+#rulesbutton{
+    background-color: #FAEF5D;
+    width: 70px;
+    border-radius: 10px;
+    border-color: #cdc007;
+    color:rgb(175, 3, 175);
+    font-weight: bold;
+}
+
+#rulesbutton{
+    margin-left: 1%;
+}
+
+#msgbox{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    width: 520px;
+    background-color: #f2f1e4;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 10px;
+    color: #14001e;
+}
+
+
+table{
+    background-color: #efecd1;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 20px;
+}
+
+.points{
+    height: 40px;
+    width: 300px;
+}
+
+.areas{
+    height: 300px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#selectcontainer{
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    width : 500px;
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+.selectionimage{
+    height: 100px ;
+    width: 100px;
+    text-align: center;
+    border-radius: 200%;
+    border: 3px solid #2a004a;
+}
+
+#restart{
+    height: 100px ;
+    width: 100px;
+    text-align: center;
+    border-radius: 200%;
+    border: 3px solid #2a004a;
+}
+
+#msg{
+    font-size: 35px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+p{
+    display: inline;
+}
+
+footer{
+    color: white;
+    text-align: right;
+}
+
+.overanimation{
+    border: 3px solid white;
+}
+
+.profileimages{
+    display: inline;
+    text-align: end;
+    border-radius: 100%;
+    height:25px;
+}
+#pprofileimg{
+    display: inline;
+    text-align: left;
+    border-radius: 100%;
+    height:25px;
+}
+
+.name{
+    display: inline;
+    font-size: 25px;
+    text-align: right;
+    font-family: cursive;
+}
+
+.ppoint{
+    height:20px;
+    border-radius: 100%;
+}
+
+.cpoint{
+    height:20px;
+    border-radius: 100%;
+}
+
+#cprofileimg{
+    display: inline;
+    text-align: right;
+    border-radius: 100%;
+    height: 25px;
+}

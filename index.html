@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Rock Paper Scissors By Nandish BS</title>
+    <link rel="stylesheet" href="RockPaperScissors.css">
+</head>
+<body>
+    <!-- header for heading -->
+    <header id="heading">
+        <h1>ROCK PAPER SCISSORS</h1><br>
+        <button id="rulesbutton"><a href="./Rules.png">Rules</a></button>
+    </header>
+
+
+    <!-- div for msg display -->
+    <div id="msgbox">
+        <p id="msg"></p>
+    </div>
+
+    <!-- container for game -->
+    <div id="gamecontainer">
+        <table>
+            <tr id="point">
+                <td id="playerpoints" class="points">
+                    <img src="./profile/player profile.png" id="pprofileimg">
+                    <p class="name"> PLAYER </p>
+                    <img src="./profile/grey.png" class="ppoint">
+                    <img src="./profile/grey.png" class="ppoint">
+                    <img src="./profile/grey.png" class="ppoint">
+                </td>
+                <td style="text-align: right;"  id="computerpoints" class="points">
+                <img src="./profile/grey.png" class="cpoint">
+                <img src="./profile/grey.png" class="cpoint">
+                <img src="./profile/grey.png" class="cpoint">    
+                <p class="name"> COMPUTER </p>
+                <img src="./profile/computer profile.png" id="cprofileimg">
+                </td>
+            </tr>
+            <tr id="area">
+                <td id="playerarea" class="areas"> <img id="playerareaimage" src="./playersideimages/rock.png" alt="player using rock paper scissor"> </td>
+                <td id="computerarea" class="areas"> <img id="computerareaimage" src="./computersideimages/rock.png" alt="computer using rock paper scissor"></td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- container for selecting  -->
+    <div id="selectcontainer">
+        <img src="./selectimages/rock select.jpg" alt="Rock" class="selectionimage">
+        <img src="./selectimages/paper select.jpg" alt="Paper" class="selectionimage">
+        <img src="./selectimages/scissor select.jpg" alt="Scissor" class="selectionimage">
+        <img src="./selectimages/restart.jpg" id="restart" onclick="location.reload()">
+    </div>
+
+    <!-- footer for footing -->
+    <footer>
+        <p>developed by Nandish BS, "4UB21CS032", CS&E, UBDT College of Engineering</p>
+    </footer>
+    <script src="RockPaperScissors.js"></script>
+</body>
+</html>
